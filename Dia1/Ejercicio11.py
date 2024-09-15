@@ -1,17 +1,15 @@
 #Solicita al usuario que ingrese una temperatura y una escala (C o F). Convierte la temperatura a la
 #escala opuesta usando match .
-fahrenheit= 17.2
-Celsius= 33.8
-def temperaturas(celsius, fahrenheit, operacion):
-    match operacion:
-        case 'Celsius ': 
-            return (Celsius*9/5) + 32
+def termometro(grado, temperatura):
+    match str (grado):
+        case 'Celsius': 
+            return (temperatura* 9/5) + 32
         case 'fahrenheit':
-            return (fahrenheit -32) *5/9
+            return (temperatura -32) * 5/9
         case _:
             return "operacion no valida"
-Celsius= float(input("ingrese primer numero: "))
-fahrenheit= float(input("ingrese segundo numero: "))
-operacion= input("Ingrese tipo de operacion quiere hacer, Celsius o fahrenheit " )
-resultado= temperaturas (Celsius, fahrenheit, operacion)
-print ("resultado: ", resultado)
+        
+temperatura= float(input("ingrese numero de grados: "))
+grado= float(input("Que tipo de convercion desea (celsius o fahrenheit) "))
+resultado= termometro (grado, temperatura)
+print ("resultado de la convercion: ", resultado)
