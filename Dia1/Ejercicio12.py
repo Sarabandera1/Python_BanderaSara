@@ -6,13 +6,13 @@ def calcular_Imc(peso, altura):
     formula = peso/altura**2
 
     if (formula<18.5):
-        print("estas flaco, ve al gim perro")
+        print("Bajo peso")
     elif(18.5 <= formula <= 24.9):
-        print("estas en forma perro")
+        print("Peso ideal")
     elif(25 <= formula <= 29.9):
-        print("eres un marrano perroooo")
+        print("Sobrepeso")
     else:
-        print("en que capitulo de kilos mortales sales?!")
+        print("obesidad")
     return formula
 
 peso = float(input("Ingrese su peso: "))
