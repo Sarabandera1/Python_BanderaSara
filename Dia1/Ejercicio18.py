@@ -9,10 +9,10 @@ for i in rango (nummaterias):
     puntaje = float(input(f"Ingrese el puntaje para la materia {i + 1} ")):
     
     if puntaje >= 60:
-        print("La materia se aprobó, un mes mas en campus")
+        print("La materia se aprobó")
         materiasAprobadas += 1
     else:
-        print("Te filtró el killer papi")
+        print("Reprobaste")
 
 creditosTotales = materiasAprobadas * 3
 
