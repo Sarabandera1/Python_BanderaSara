@@ -1,0 +1,39 @@
+#Programa que me permita leer  los nombres de n cantidad de personas. Cuando el usuario tome la decisión #de no  ingresar los nombres, muestre los nombres ingresados.
+import os
+def insertadata(src: list):
+  src.append(input('Ingrese el nombre del contacto: '))
+
+  def verdata(src:list):
+    for data in src:
+      print(data)
+os.system('pause')
+
+if (name == "main"):
+  agendatel = []
+  isActive = True
+  menu = '1. Resgistrar el contacto\n2. Listar contacto\n3. Salir'
+  titulo = """
+
+***************************
+*REGISTRO DE CONTACTOS 32*
+**************************
+
+"""
+while (isActive):
+  os.system('cls')
+  print(titulo)
+  print(menu)
+  op = int(input(':)_'))
+  match op:
+    case 1:
+    isAddContact == False
+    while(isAddContact ==False):
+      os.system('cls')
+      insertadata(agendatel)
+      isAddContact = bool(input('Desea ingresar otro contacto Enter(si) N(no)'))
+
+      case 2:
+      os.system('cls')
+      verdata(agendatel)
+      case 3: 
+      isActive =bool(input('Desea abandonar el programa Enter(si) N(no)'))
