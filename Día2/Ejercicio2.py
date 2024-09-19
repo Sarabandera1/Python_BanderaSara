@@ -4,7 +4,9 @@
 #número hasta 1 utilizando un
 #buclewhile.
 
-num =float(input("Ingrese número entero positivo: "))
+num1=int(input("ingrese un numero: "))
 
-for i in range(int(num)):
-    print(i+1)
+
+while num1>=1:
+    print(num1)
+    num1=num1-1

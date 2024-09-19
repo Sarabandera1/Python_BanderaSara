@@ -6,8 +6,9 @@
 #mensaje "Eres mayor de edad", de lo
 #contrario, muestra el mensaje "Eres
 #menor de edad".
-edad= int (input("Ingrese su edad: "))
-if (18>= edad)
-print ("Usted es mayor de edad")
+
+edad= int(input("Ingrese su edad: "))
+if (edad>=18):
+    print ("Usted es mayor de edad")
 else:
-print ("Usted es menor de edad")
+    print ("Usted es menor de edad")

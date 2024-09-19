@@ -8,4 +8,21 @@
 #contrario, muestra el mensaje
 #"Contraseña inválida".
 
+def es_contrasena_valida(contrasena):
+    
+    if len(contrasena) < 8:
+        return False
+    
+ 
+    tiene_numero = any(char.isdigit() for char in contrasena)
+    
+    return tiene_numero
 
+
+contrasena = input("Ingresa una contraseña: ")
+
+
+if es_contrasena_valida(contrasena):
+    print("Contraseña válida")
+else:
+    print("Contraseña inválida")

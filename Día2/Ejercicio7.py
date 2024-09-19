@@ -22,3 +22,18 @@
 #triangular es un principio fundamental en la geometría y se
 #utiliza para determinar la validez de un triángulo con
 #base en las longitudes de sus lados.
+
+def es_triangulo_valido(a, b, c):
+    if a + b > c and a + c > b and b + c > a:
+        return True
+    else:
+        return False
+
+a = float(input("Ingresa la longitud del primer lado: "))
+b = float(input("Ingresa la longitud del segundo lado: "))
+c = float(input("Ingresa la longitud del tercer lado: "))
+
+if es_triangulo_valido(a, b, c):
+    print("Las longitudes ingresadas pueden formar un triángulo válido.")
+else:
+    print("Las longitudes ingresadas NO pueden formar un triángulo válido.")
