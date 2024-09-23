@@ -4,9 +4,9 @@ partidos =[
     {
         "id":1, 
         "fecha":'2024-09-21 16:53:24.366903',
-        "equipo_visitante": "blah",
-        "equipo_local": "bloh",
-        "estadio": " estadio cha",
+        "equipo_visitante": "los peperolos",
+        "equipo_local": "ayus",
+        "estadio": " estadio de venezuela",
         "goles_visitante":0,
         "goles_local":0,
     }
@@ -17,7 +17,7 @@ def getPartidos():
         partido = i
         for a,e in partido.items():
             print(f'{a}:{e}')
-        print('********************')
+        print('------------------')
 
 def insertMatch():
     visitante = input('equipo visitante: ')
@@ -34,7 +34,7 @@ def insertMatch():
         "goles_local":0,
     }
 
-    partidos.append(match)
+    partidos.append()
     getPartidos()
     
     
