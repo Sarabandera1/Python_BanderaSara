@@ -2,7 +2,7 @@ from datetime import datetime
 
 partidos =[
     {
-        "id":1, 
+        "id":1,
         "fecha":'2024-09-21 16:53:24.366903',
         "equipo_visitante": "los peperolos",
         "equipo_local": "ayus",

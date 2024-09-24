@@ -1,13 +1,13 @@
 from Jugadores import getPlayers, insertPlayer
 from partido import getPartidos, insertMatch
-from etecnico import cuerpoTecnico,insertPlayer 
-from menureportes import as mr
+from etecnico import cuerpoTecnico,insertPlayer
+from menureportes import crearmenu as mkMenu
 
 
 def menuPrincipal():
     while True:
         try:
-            opcion=input ("""            
+            opcion=input ("""
       LIGA BETPLAY
                                                                                       
     Opciones disponibles:

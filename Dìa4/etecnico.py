@@ -1,8 +1,9 @@
+from Jugadores import getPlayers
 etecnico =[
 
 ]
 
-def cuerpoTecnico(): 
+def cuerpoTecnico():
     for i in tecnico:
         tecnico = i
         for a,e in tecnico.items():
@@ -12,12 +13,12 @@ def cuerpoTecnico():
 getPlayers()
 def insertPlayer():
     nombre = input(f'ingrese nombre del tecnico: ')
-    print('***********************') 
+    print('***********************')
 
     newTecnico = {
         "nombre":nombre
     }
 
-    equipoTecnico.append(newTecnico)
+    etecnico.append(newTecnico)
     cuerpoTecnico()
 insertPlayer()

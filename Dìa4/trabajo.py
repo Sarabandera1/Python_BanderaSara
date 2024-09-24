@@ -5,18 +5,20 @@ from partido  import getPartidos, insertMatch
 def menuJugadores():
 
     opcion = input("""
-                   
- ▗▖  ▗▖▗▄▄▄▖▗▖  ▗▖▗▖ ▗▖    ▗▄▄▖ ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖ ▗▄▄▖▗▄▄▄▖▗▄▄▖  ▗▄▖ ▗▖
+▗▖  ▗▖▗▄▄▄▖▗▖  ▗▖▗▖ ▗▖    ▗▄▄▖ ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖ ▗▄▄▖▗▄▄▄▖▗▄▄▖  ▗▄▖ ▗▖
 ▐▛▚▞▜▌▐▌   ▐▛▚▖▐▌▐▌ ▐▌    ▐▌ ▐▌▐▌ ▐▌  █  ▐▛▚▖▐▌▐▌     █  ▐▌ ▐▌▐▌ ▐▌▐▌
 ▐▌  ▐▌▐▛▀▀▘▐▌ ▝▜▌▐▌ ▐▌    ▐▛▀▘ ▐▛▀▚▖  █  ▐▌ ▝▜▌▐▌     █  ▐▛▀▘ ▐▛▀▜▌▐▌
 ▐▌  ▐▌▐▙▄▄▖▐▌  ▐▌▝▚▄▞▘    ▐▌   ▐▌ ▐▌▗▄█▄▖▐▌  ▐▌▝▚▄▄▖▗▄█▄▖▐▌   ▐▌ ▐▌▐▙▄▄▖
 
-                   
+                
 Ingrese una opcion:
     
     1.obtener todos los jugadores.
     2.insertar un nuevo jugador.
-""")
+
+                """)
+    
+
     try:
         opcion=int(opcion)
         if opcion == 1:

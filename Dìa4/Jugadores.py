@@ -3,7 +3,7 @@ jugadores =[
 
 ]
 
-def getPlayers(): 
+def getPlayers():
     for i in jugadores:
         jugador = i
         for a,e in jugador.items():
