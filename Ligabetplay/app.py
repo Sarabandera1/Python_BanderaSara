@@ -3,6 +3,7 @@ import modules.ui as ui
 import modules.mensajes as msg
 import modules.utils as uc
 import modules.teams as tm
+import modules.plantel as ct
 if (__name__ == "__main__"):
     ligaBetPlay=[]
     isActive= True
@@ -37,7 +38,28 @@ if (__name__ == "__main__"):
                                 case _:
                                     pass
                 case 2:
-                    pass
+                    isAddTeam = True
+                    opMenuTeam = 0
+                    while (isAddCt):
+                        try:
+                            os.system('cls')
+                            print(ui.menuPlantel)
+                            opMenuTeam = int(input(''))
+                        except ValueError:
+                            print ('Error en el dato ingresado...')
+                            os.system('pause')
+                            continue
+                        else:
+                            match opMenuPlantel:
+                                case 1:
+                                    ct.addPlantel(ligaBetPlay)
+                                case 2: 
+                                    pass
+                                case 4:
+                                    isAddCt = uc.ValidateResponse ('Fesea salir de la dministracion de equipos S(s) y N no) ')
+                                case _:
+                                    print('Error en la opcion ingresada')
+                                    os.systema('pause')
                 case 3:
                     pass
                 case 4:

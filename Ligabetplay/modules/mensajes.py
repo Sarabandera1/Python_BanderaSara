@@ -1,11 +1,11 @@
 tituloMenuPrincipal= """ 
         *********************
-             LIGA BETPLAY
+            LIGA BETPLAY
         *********************
 """
 tituloMenuEquipos= """ 
         *****************************
-         REGISTRO DE EQUIPOS EN LIGA
+        REGISTRO DE EQUIPOS EN LIGA
         *****************************
 """
 
