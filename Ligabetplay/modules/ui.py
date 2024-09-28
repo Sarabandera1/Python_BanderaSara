@@ -16,4 +16,9 @@ menuEquipos= """
             3. Listar jugadores
             4. Regresar al menú principal
 """
-
+menuPlantel= """
+            1. Crear cuerpo tecnico
+            2. Crear planilla (jugadores)
+            3. Listar jugadores
+            4. Regresar al menú principal
+"""
