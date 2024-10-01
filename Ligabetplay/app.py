@@ -10,7 +10,7 @@ if (__name__ == "__main__"):
     opMenu= 0
     while (isActive): 
         try: 
-            os.system('cls')
+            os.system('clear')
             print(msg.tituloMenuPrincipal)
             print (ui.menu)
             opMenu = int(input('.....'))
@@ -20,7 +20,7 @@ if (__name__ == "__main__"):
                     opMenuTeam = 0
                     while (isAddTeam):
                         try:
-                            os.system('cls')
+                            os.system('clear')
                             print(ui.menuEquipos)
                             opMenuTeam = int(input(''))
                         except ValueError:
@@ -42,7 +42,7 @@ if (__name__ == "__main__"):
                     opMenuTeam = 0
                     while (isAddCt):
                         try:
-                            os.system('cls')
+                            os.system('clear')
                             print(ui.menuPlantel)
                             opMenuTeam = int(input(''))
                         except ValueError:

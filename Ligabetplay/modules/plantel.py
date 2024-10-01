@@ -5,13 +5,20 @@ def addPlantel(lstLiga:list):
     if (len(lstLiga) > 0):
         for team in lstLiga:
             if(equipo in team):
-                print(team)
-                os.system('pause')
-                isFound = True
-    if(isFound==False): 
+               addPerson(team)
+            break
+    if(isFound == False): 
         print('El equipo no se encuentra participanto...')
         os.system ('pause')
     else:
-        os.system('cls')
+        os.system('clear')
         print ('No hay equipos registrados, agregue un equipo primero a la lista')
         os.system('pause')
+
+def addPerson(lstPersons:list):
+    isAddPersons = True
+    while (isAddPersons):
+        nombre = input('Digite el nombre de la persona: ')
+        cargo = input('Escriba el cargo de la persona')
+        person = [nombre,cargo]
+        lstPersons[1].append(persons)
